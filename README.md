@@ -1,4 +1,9 @@
-# Chess Opening Database  
-This application takes chess games annotated in PGN format and creates FEN information for the first moves of the game. The FEN informatino is upserted in to an indexed repository and cross-reference with games.
+This project reproduces the issue where `netlify deploy --prod` works, but github-triggered deployment does not.
 
-Using GraphQL queries, it is then possible to analyze various opening statistics.
+
+**Netlify command line tool**
+VERSION
+  netlify-cli/2.20.1 linux-x64 node-v12.9.1
+
+**notes**
+Make sure you do a `yarn install` in the functions folder in addition to the top-level one.
